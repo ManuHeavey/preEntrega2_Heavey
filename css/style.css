@@ -154,3 +154,17 @@
         width: 43vh;
     }
 }
+
+/* CSS champions.html */
+
+.card {
+    margin-top: 1rem;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-title {
+    text-align: center;
+}
