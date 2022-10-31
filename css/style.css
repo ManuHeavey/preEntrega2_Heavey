@@ -175,6 +175,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .artCB img {
@@ -223,4 +224,51 @@
         width: 240px; 
         height: 315px ;
     }    
+}
+
+/* CSS de aboutMe.hmtl */
+
+.artAM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.artAM img {
+    width: 50rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icons img {
+    width: 4rem;
+    margin: 0.25rem;
+}
+
+.form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.syr {
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media (max-width: 480px) {
+    .artAM img {
+        width: 40vh;
+    }
+
+    .icons img {
+        width: 7vh;
+    }
 }
