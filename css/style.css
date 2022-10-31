@@ -199,3 +199,28 @@
         text-align: center;
     }
 }
+
+/* CSS tips.html */
+
+.sectTips {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem ;
+}
+
+.sectTips div iframe {
+    width: 560px; 
+    height: 315px;
+}
+
+.sectTips h2 {
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .sectTips div iframe {
+        width: 240px; 
+        height: 315px ;
+    }    
+}
