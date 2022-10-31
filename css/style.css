@@ -168,3 +168,34 @@
 .card-title {
     text-align: center;
 }
+
+/* CSS commonBuilds.html */
+
+.artCB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artCB img {
+    width: 5rem;
+    padding: 0.1rem;
+    margin-top: 0.2rem;
+}
+
+.artBoots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem ;
+}
+
+@media (max-width: 480px) {
+    .artCB img {
+        width: 6.5vh;
+    }
+
+    .artBoots {
+        text-align: center;
+    }
+}
