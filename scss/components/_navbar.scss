@@ -1,0 +1,27 @@
+.navbar {
+    background-color: $azul;
+    animation-name: colorNav;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2.5s;
+}
+
+.navbar-brand img {
+    width: 5rem;
+    margin-left: 5rem;
+}
+
+.navbar-brand img:hover {
+    animation-name: logoBounce;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.navbar-nav {
+    margin-right: 5rem;
+}
+
+.navbar-toggler {
+    margin-right: 5rem;
+}

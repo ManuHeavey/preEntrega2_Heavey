@@ -1,0 +1,54 @@
+@media (max-width: 480px) { 
+    .navbar-brand img {
+        width: 3rem;
+        margin-left: 0rem;
+    }
+
+    .navbar-nav {
+        margin-right: 5rem;
+    }
+
+    .navbar-toggler {
+        margin-right: 0rem;
+    }
+
+    .footer {
+        font-size: 60%;
+    }
+
+    .article1 {
+        margin: 0 1rem 0;
+        font-size: 80%;
+    }
+
+    .article2 {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .article3 {
+        margin: 0 1rem 0;
+        font-size: 80%;
+    }    
+
+    .bannerMorde {
+        width: 43vh;
+    }
+
+    .artCB img {
+        width: 6.5vh;
+    }
+
+    .sectTips div iframe {
+        width: 240px; 
+        height: 315px;
+    }    
+
+    .artAM img {
+        width: 40vh;
+    }   
+
+    .icons img {
+        width: 7vh;
+    }
+}

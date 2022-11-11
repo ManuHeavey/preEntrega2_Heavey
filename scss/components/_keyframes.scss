@@ -1,0 +1,11 @@
+@keyframes colorNav {
+    0%{background-color: $azul;}
+    50%{background-color: $azulito;}
+    100%{background-color: $azul;}
+}
+
+@keyframes logoBounce {
+    0%{transform: rotate(-5deg);}
+    50%{transform: rotate(5deg);}
+    100%{transform: rotate(-5deg);}
+}

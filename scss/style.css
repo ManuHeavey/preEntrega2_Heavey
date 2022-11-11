@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oswald", sans-serif;
+}
+
+.sectIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.sect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #0B2536;
+  -webkit-animation-name: colorNav;
+          animation-name: colorNav;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+}
+
+.navbar-brand img {
+  width: 5rem;
+  margin-left: 5rem;
+}
+
+.navbar-brand img:hover {
+  -webkit-animation-name: logoBounce;
+          animation-name: logoBounce;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+
+.navbar-nav {
+  margin-right: 5rem;
+}
+
+.navbar-toggler {
+  margin-right: 5rem;
+}
+
+.footer {
+  background-color: #0B2536;
+  color: #FAF3DD;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin: 1rem;
+  background-color: black;
+}
+
+.syr {
+  margin: 0.25rem 0.5rem 0.5rem;
+}
+
+.card {
+  margin-top: 1rem;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-title {
+  text-align: center;
+}
+
+@-webkit-keyframes colorNav {
+  0% {
+    background-color: #0B2536;
+  }
+  50% {
+    background-color: #153247;
+  }
+  100% {
+    background-color: #0B2536;
+  }
+}
+
+@keyframes colorNav {
+  0% {
+    background-color: #0B2536;
+  }
+  50% {
+    background-color: #153247;
+  }
+  100% {
+    background-color: #0B2536;
+  }
+}
+@-webkit-keyframes logoBounce {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+@keyframes logoBounce {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+.bannerMorde {
+  width: 100vh;
+}
+
+.artCB img {
+  width: 5rem;
+  padding: 0.1rem;
+  margin-top: 0.2rem;
+}
+
+.sect div iframe {
+  width: 560px;
+  height: 315px;
+  margin-top: 1rem;
+}
+
+.artAM img {
+  width: 50rem;
+}
+
+.icons img {
+  width: 4rem;
+  margin: 0.25rem;
+}
+
+.article1 {
+  margin: 0 5rem 0;
+  text-align: center;
+}
+
+.article1 h1 {
+  color: #F7941D;
+}
+
+.article2 {
+  margin: 0 5rem 0;
+}
+
+.article3 {
+  margin: 1rem 5rem 1rem;
+}
+
+.artBoots {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .navbar-brand img {
+    width: 3rem;
+    margin-left: 0rem;
+  }
+  .navbar-nav {
+    margin-right: 5rem;
+  }
+  .navbar-toggler {
+    margin-right: 0rem;
+  }
+  .footer {
+    font-size: 60%;
+  }
+  .article1 {
+    margin: 0 1rem 0;
+    font-size: 80%;
+  }
+  .article2 {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .article3 {
+    margin: 0 1rem 0;
+    font-size: 80%;
+  }
+  .bannerMorde {
+    width: 43vh;
+  }
+  .artCB img {
+    width: 6.5vh;
+  }
+  .sectTips div iframe {
+    width: 240px;
+    height: 315px;
+  }
+  .artAM img {
+    width: 40vh;
+  }
+  .icons img {
+    width: 7vh;
+  }
+}/*# sourceMappingURL=style.css.map */
