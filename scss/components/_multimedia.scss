@@ -9,7 +9,7 @@
 }
 
 .sect div iframe {
-    width: 560px; 
+    width: 560px;
     height: 315px;
     margin-top: 1rem;
 }
@@ -21,4 +21,20 @@
 .icons img {
     width: 4rem;
     margin: 0.25rem;
+}
+
+/*Agrego un maps, solamente para mostrar que se como usarlo, pero no lo quise agregar a mi codigo*/
+
+$redes: (
+    instagram: #8730c1,
+    facebook: #3a5795,
+    reddit: #cb421c,
+    twitter: #0ed5e7aa,
+    steam: #373737aa,
+);
+
+@each $key, $value in $redes {
+    .icons--#{$key} {
+        background-color: $value;
+    }
 }
