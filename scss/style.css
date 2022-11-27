@@ -6,13 +6,6 @@
   font-family: "Oswald", sans-serif;
 }
 
-.sectIndex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-}
-
 .sect {
   display: flex;
   flex-direction: column;
@@ -65,7 +58,6 @@
 
 .form {
   margin: 1rem;
-  background-color: black;
 }
 
 .syr {
@@ -154,6 +146,27 @@
   margin: 0.25rem;
 }
 
+/*Agrego un maps, solamente para mostrar que se como usarlo, pero no lo quise agregar a mi codigo*/
+.icons--instagram {
+  background-color: #8730c1;
+}
+
+.icons--facebook {
+  background-color: #3a5795;
+}
+
+.icons--reddit {
+  background-color: #cb421c;
+}
+
+.icons--twitter {
+  background-color: rgba(14, 213, 231, 0.6666666667);
+}
+
+.icons--steam {
+  background-color: rgba(55, 55, 55, 0.6666666667);
+}
+
 .article1 {
   margin: 0 5rem 0;
   text-align: center;
@@ -173,6 +186,10 @@
 
 .artBoots {
   margin-bottom: 0.5rem;
+}
+
+.body {
+  background-color: #FAF3DD;
 }
 
 @media (max-width: 480px) {
